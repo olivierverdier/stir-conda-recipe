@@ -1,0 +1,26 @@
+package:
+  name: stir
+  version: "3.0.0"
+
+source:
+  git_rev: 09d490c5bd7e86482610d8f3d86c1ecf5e4a236f
+  git_url: https://github.com/UCL/STIR.git
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - cmake
+    - boost
+    - swig
+    - libgcc
+  run:
+    - cmake
+    - boost
+    - swig
+    - libgcc
+
+about:
+  home: http://stir.sourceforge.net/
+  license: GPL and LGPL
